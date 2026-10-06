@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Butter 'n' Toast — Children's Books by Almutaz Elhindi</title>
+<meta name="description" content="Follow the adventures of Butter 'n' Toast — children's books about friendship, kindness and meeting someone who doesn't quite fit in. By Almutaz Elhindi.">
+<link rel="icon" href="https://ac-landing-pages-user-uploads-production.s3.amazonaws.com/0000080507/9cf9dc6c-158a-4c71-842e-8759d53f09fa.png">
+
+<meta property="og:title" content="Butter 'n' Toast — Meet a new friend!">
+<meta property="og:description" content="Children's books about friendship and kindness, by Almutaz Elhindi.">
+<meta property="og:image" content="https://ac-landing-pages-user-uploads-production.s3.amazonaws.com/0000080507/d84d9cb2-a0f6-49fe-a21f-1afb890db32a.jpg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --green:#18b44c;
+  --green-dark:#13973f;
+  --orange:#ffab00;
+  --orange-dark:#e09600;
+  --sky:#cfeaf6;
+  --ink:#1a1a1a;
+  --muted:#444;
+  --maxw:860px;
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  font-family:"Open Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--ink);
+  background:#fff;
+  line-height:1.65;
+  font-size:17px;
+}
+img{max-width:100%;height:auto;display:block}
+
+.wrap{max-width:var(--maxw);margin:0 auto;padding-inline:20px}
+
+/* ---------- header ---------- */
+.site-head{padding-block:22px 10px;text-align:center}
+.site-head img{margin:0 auto;width:min(300px,70%)}
+
+/* ---------- sections ---------- */
+section{padding-block:56px}
+section.sky{
+  background-color:var(--sky);
+  background-image:url("https://ac-landing-pages-user-uploads-production.s3.amazonaws.com/0000080507/2f2624bb-0d7c-44eb-bc01-0647ca552bf1.jpg");
+  background-size:cover;
+  background-position:center;
+}
+section.tight{padding-block:40px}
+
+/* ---------- type ---------- */
+h1,h2,h3{font-family:Roboto,system-ui,sans-serif;margin:0 0 .35em;line-height:1.2}
+h1{font-size:clamp(30px,5vw,40px);font-weight:700;color:var(--orange);text-align:center}
+h2{font-size:clamp(26px,4.4vw,34px);font-weight:700;text-align:center}
+h2.orange{color:var(--orange)}
+.kicker{font-family:Roboto,sans-serif;font-size:clamp(18px,2.6vw,22px);text-align:center;margin:0 0 1.2em;color:var(--muted)}
+p{margin:0 0 1.1em}
+.lede{text-align:center;max-width:62ch;margin-inline:auto}
+.center{text-align:center}
+
+/* ---------- buttons ---------- */
+.btn{
+  display:inline-block;
+  font-family:Roboto,sans-serif;
+  font-weight:700;
+  font-size:17px;
+  text-decoration:none;
+  padding:15px 38px;
+  border-radius:500px;
+  background:var(--green);
+  color:#fff;
+  transition:background .15s ease,transform .15s ease;
+  box-shadow:0 2px 0 rgba(0,0,0,.08);
+}
+.btn:hover,.btn:focus-visible{background:var(--green-dark);transform:translateY(-1px)}
+.btn.square{border-radius:4px;background:var(--orange)}
+.btn.square:hover,.btn.square:focus-visible{background:var(--orange-dark)}
+.btn-row{text-align:center;margin-block:28px 0}
+
+/* ---------- media ---------- */
+.cover{width:min(420px,100%);margin:0 auto 30px;border-radius:6px;overflow:hidden}
+.cover img{width:100%}
+.photo{width:min(420px,100%);margin:30px auto 0;border-radius:6px;overflow:hidden}
+.characters{width:min(520px,100%);margin:0 auto 10px}
+
+/* ---------- list ---------- */
+ul.perks{
+  list-style:none;
+  padding:0;
+  margin:0 auto 1.4em;
+  max-width:30ch;
+}
+ul.perks li{
+  position:relative;
+  padding-left:34px;
+  margin-bottom:12px;
+}
+ul.perks li::before{
+  content:"";
+  position:absolute;left:0;top:.45em;
+  width:18px;height:18px;
+  border-radius:50%;
+  background:var(--green);
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'><polyline points='20 6 9 17 4 12'/></svg>");
+  background-size:12px 12px;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+/* ---------- contact ---------- */
+.email{
+  font-family:Roboto,sans-serif;
+  font-size:clamp(19px,3.2vw,26px);
+  font-weight:700;
+  word-break:break-word;
+}
+.email a{color:var(--ink);text-decoration:none;border-bottom:3px solid var(--orange)}
+.email a:hover{color:var(--orange)}
+
+/* ---------- footer ---------- */
+footer{
+  background:#f1f1f1;
+  padding-block:26px;
+  text-align:center;
+  font-size:15px;
+  color:#555;
+}
+
+.divider{
+  height:4px;
+  margin:0;
+  border:0;
+  background:linear-gradient(90deg,rgba(255,171,0,0) 0%,var(--orange) 50%,rgba(255,171,0,0) 100%);
+}
+
+@media (max-width:600px){
+  body{font-size:16px}
+  section{padding-block:42px}
+  .btn{padding:14px 28px;font-size:16px}
+}
+</style>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <img src="https://ac-landing-pages-user-uploads-production.s3.amazonaws.com/0000080507/dec66653-cbfb-428c-8c5c-171a74f4948b.jpg"
+         alt="Butter 'n' Toast">
+  </div>
+</header>
+
+<!-- ============ BOOK 1 ============ -->
+<section class="tight">
+  <div class="wrap">
+    <div class="cover">
+      <img src="https://ac-landing-pages-user-uploads-production.s3.amazonaws.com/0000080507/d84d9cb2-a0f6-49fe-a21f-1afb890db32a.jpg"
+           alt="Butter 'n' Toast: Meet a New Friend — book cover, written and illustrated by Almutaz Elhindi">
+    </div>
+    <h1>Butter 'n' Toast</h1>
+    <p class="kicker">Meet a new friend!</p>
+    <p class="lede">Follow along the adventures of Butter 'n' Toast and their journey with the challenges of meeting a new friend who doesn't quite fit in.</p>
+    <div class="btn-row">
+      <a class="btn" href="https://www.amazon.com/Butter-Toast-Childrens-Teaches-Kindness/dp/B0FQSPY3H3" target="_blank" rel="noopener">Buy the Book - 1st Edition</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MERCH ============ -->
+<section class="sky">
+  <div class="wrap">
+    <h2>Wear your support!</h2>
+    <p class="lede">Designed with kids and adults in mind, shop our Butter 'n' Toast shirts, tanks and hoodies.</p>
+    <div class="btn-row">
+      <a class="btn" href="https://www.redbubble.com/people/ButterNToast1/shop?asc=u" target="_blank" rel="noopener">Shop the Merch</a>
+    </div>
+    <div class="photo">
+      <img src="https://ac-landing-pages-user-uploads-production.s3.amazonaws.com/0000080507/9f03aeb5-e0d3-46cf-8025-0c71cb459d39.jpg"
+           alt="Black Butter 'n' Toast hoodie featuring the characters in a boat" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- ============ BOOK 2 ============ -->
+<section>
+  <div class="wrap">
+    <div class="cover">
+      <img src="https://ac-landing-pages-user-uploads-production.s3.amazonaws.com/0000080507/050d1cc0-d04d-42d8-b926-7b3d4e281031.jpg"
+           alt="Butter 'n' Toast: Trouble in Tokyo — book cover" loading="lazy">
+    </div>
+    <h1>Butter 'n' Toast</h1>
+    <p class="kicker">meet a new friend</p>
+    <p class="lede">Join Butter 'n' Toast in <em>Trouble in Tokyo</em> as they embark on a heartwarming mission to find Carrot's lost teddy bear. Amidst Tokyo's vibrant streets, they face mystery, friendship, and an epic Rock, Paper, Scissors showdown. A delightful, compact adventure of bravery and friendship!</p>
+    <div class="btn-row">
+      <a class="btn" href="https://www.amazon.com/Butter-n-Toast-Trouble-Tokyo/dp/B0FQSPKFYM" target="_blank" rel="noopener">Buy the Book - 2nd Edition</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY ============ -->
+<section class="tight">
+  <div class="wrap">
+    <div class="characters">
+      <img src="https://ac-landing-pages-user-uploads-production.s3.amazonaws.com/0000080507/9cf9dc6c-158a-4c71-842e-8759d53f09fa.png"
+           alt="Butter and Toast characters waving" loading="lazy">
+    </div>
+    <h2 class="orange">Why the<br>Butter 'n' Toast series?</h2>
+    <p class="kicker">The perfect book for kids if&hellip;.</p>
+    <ul class="perks">
+      <li>You want to teach your children life lessons</li>
+      <li>You want fun and fresh characters</li>
+      <li>A story that also interests adults</li>
+    </ul>
+    <p class="lede">Follow along the adventures of Butter 'n' Toast and their journey with the challenges of meeting a new friend who doesn't quite fit in.</p>
+    <div class="btn-row">
+      <a class="btn square" href="https://www.amazon.com/Butter-Toast-Childrens-Teaches-Kindness/dp/B0FQSPY3H3" target="_blank" rel="noopener">Buy the 1st Edition Book</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AUTHOR ============ -->
+<section class="sky">
+  <div class="wrap">
+    <h2>Meet the author behind the series</h2>
+    <p class="lede">Hi, I'm Almutaz (Ali for short). Youngest of 6 siblings, and a member of New York's Finest.</p>
+    <div class="photo">
+      <img src="https://ac-landing-pages-user-uploads-production.s3.amazonaws.com/0000080507/5ef6629a-da20-4bfd-9299-35d32c9c498e.png"
+           alt="Almutaz Elhindi, author of the Butter 'n' Toast series" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="tight">
+  <div class="wrap center">
+    <h2>Questions? Concerns?</h2>
+    <p class="kicker">Just want to say &lsquo;hi&rsquo;?<br>Hit me up with a message.</p>
+    <p class="email">Email: <a href="mailto:therealbutterntoast@gmail.com">therealbutterntoast@gmail.com</a></p>
+  </div>
+</section>
+
+<hr class="divider">
+
+<footer>
+  Butter 'n' Toast by Almutaz Elhindi
+</footer>
+
+</body>
+</html>
